@@ -41,6 +41,10 @@
     margin-top: 0.5em;
 }
 
+#dropdown {
+    width: 102.5%;
+}
+
 button {
     width: 100%;
     padding-top: 0.5em;
