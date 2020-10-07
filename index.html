@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <title>Robot_Survey_Form_4.2.</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="body">
+    
+        <header id="header">
+            <h1 id="title">Robot_Survey_Form_4.2.</h1>
+            <p id="description"><strong>Please-enter-id-credentials</strong></p>
+        </header>
+        <div id="container1">
+            <form id="survey-form">
+
+                <label id="name-label" for="name">Input_your_factory_name:</label><br>
+                <input type="text" id="name" name="name" placeholder="factory-name" class="input-text"> 
+
+                <br>
+
+                <label id="email-label" for="email">Input_your_electronic_cybermail:</label><br>
+                <input type="email" id="email" name="email" placeholder="cybermail" class="input-text"> 
+
+                <br>
+
+                <label id="number-label" for="chip">Input_your_cyberchip_code:</label><br>
+                <input type="number" id="number" name="chip" placeholder="chip_digit" class="input-text" min="0000" max="9999"> 
+
+                <br>
+
+                <label id="megacorp-label"for="megacorp" class="input-text">Specify_parent_corporation:</label><br>
+                <select id="dropdown" name="megacorp" class="input-text">
+                <option value="null-option">select-from-dropdown-menu</option>
+                <option value="weyland">Weyland</option>
+                <option value="jinteki">Jinteki</option>
+                <option value="hb">Haas-Bioroid</option>
+                <option value="nbn">Net Broadcast Network </option>
+                </select>     
+
+                <br>
+
+                <div id="function-div">
+                    <label id="function-label"for="function">Select_your_function:</label>
+                    <br>
+                    <input type="radio" id="sysop" name="function" value="sysop">
+                    <label for="sysop">Sysop</label>
+                    <br>
+                    <input type="radio" id="bioroid" name="function" value="bioroid">
+                    <label for="bioroid">Bioroid</label>
+                    <br>
+                    <input type="radio" id="netrunner" name="function" value="netrunner">
+                    <label for="other">Netrunner</label> 
+                </div>
+                <br>
+
+                <div id="location-div">
+                    <label id="location-label" for="location">Check_all_assigned_city_districts:</label>
+                    <br>
+                    <input type="checkbox" id="location1" name="location1" value="sansan">
+                    <label for="location1"> SanSan</label>
+                    <br>
+                    <input type="checkbox" id="location2" name="location2" value="lacosta">
+                    <label for="location2"> La Costa</label>
+                    <br>
+                    <input type="checkbox" id="location3" name="location3" value="chilo">
+                    <label for="location3"> Chilo</label>
+                    <br>
+                    <input type="checkbox" id="location4" name="location4" value="jinja">
+                    <label for="location4"> Jinja</label>
+                    <br>
+                    <input type="checkbox" id="location5" name="location5" value="cayambe">
+                    <label for="location5"> Cayambe</label>
+                    <br>
+                    <input type="checkbox" id="location6" name="location6" value="breakerbay">
+                    <label for="location6"> Breaker Bay</label>
+                    <br>
+                    <input type="checkbox" id="location7" name="location7" value="mwanza">
+                    <label for="location7"> Mwanza</label>
+                    <br>
+                    <input type="checkbox" id="location8" name="location8" value="mumbad">
+                    <label for="location8"> Mumbad</label>
+                    <br>
+                    <input type="checkbox" id="location9" name="location9" value="hokusai">
+                    <label for="location9"> Hokusai</label>
+                    <br>
+                    <input type="checkbox" id="location10" name="location10" value="portanson">
+                    <label for="location10"> Port Anson</label>
+                </div>
+                <br>
+
+                <label id="verification-label" for="verification">Are_you_human?</label>
+                <br>
+                <input type="checkbox" id="verification" name="verification" value="no">
+                <label for="verification">No</label>
+
+                <br>
+
+                <div id="hash-div">
+                    <label for="code">Input_encoded_net_hash_code:</label>
+                    <br>
+                    <textarea id="code" class="input-text" class="input-textarea" name="code" placeholder="Encrypt_and_enter_unique_net_hash_code"></textarea>
+                </div>
+                <br>
+
+                <button id="submit" type="submit">VALIDATE!</button>
+            </form>
+        </div>
+    </body>
+
+</html>
